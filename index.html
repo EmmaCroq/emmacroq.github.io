@@ -33,7 +33,7 @@
   <!-- CSS Files -->
   <link href="./assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
+  <link href="./assets/css/perso.css" rel="stylesheet" />
 </head>
 
 <body class="index-page">
@@ -115,20 +115,10 @@
           <div class="card-body">
             <!-- Tab panes -->
             <div class="tab-content tab-space">
-              <div class="tab-pane active" id="link1">
+              <div class="tab-pane active">
                 <p>J'ai décidé de créer ce site pour me permettre de me présenter plus aisément. J'ai de nombreux projets en tête que je désire réaliser et de toutes sortes, tels que des sites web ou des jeux vidéos. N'hésitez pas à me contacter si vous voulez discuter de certain de ceux-ci avec moi.
                   <br />
                   <br/> Vous retrouverez ici tous mes projets au fil des ans.</p>
-              </div>
-              <div class="tab-pane" id="link2">
-                <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                  <br />
-                  <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-              </div>
-              <div class="tab-pane" id="link3">
-                <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                  <br />
-                  <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
               </div>
             </div>
           </div>
@@ -136,18 +126,18 @@
         <br>
         <ul class="nav nav-pills nav-pills-primary nav-pills-icons row justify-content-around">
           <li class="nav-item">
-            <a class="nav-link active show" data-toggle="tab" href="#link8">
+            <a class="nav-link active show" id="SectionJeu" data-toggle="tab" href="#link8">
               <i class="tim-icons icon-controller"></i> Jeux
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#link7">
+            <a class="nav-link"  id="SectionWeb" data-toggle="tab" href="#link7">
               <i class="tim-icons icon-world"></i> Web
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#link9">
-              <i class="tim-icons icon-settings"></i> Logiciel
+            <a class="nav-link" id="SectionLogiciel" data-toggle="tab" href="#link9">
+              <i class="tim-icons icon-settings"></i> Logiciels
             </a>
           </li>
         </ul>
@@ -156,18 +146,20 @@
         <div class="section section-basic row justify-content-around" id="basic-elements">
           <img src="assets/img/path1.png" class="path">
           <div class="container col-8">
-            <h2 class="title">Jeux vidéo</h2>
-            <span class="badge badge-default">RPG</span>
-            <span class="badge badge-primary">Horreur</span>
-            <span class="badge badge-success">Plateforme</span>
-            <span class="badge badge-info">Visual Novel</span>
-            <span class="badge badge-warning">Idle Game</span>
-            <span class="badge badge-danger">Action</span>
-            <span class="badge badge-neutral">Puzzle</span>
+            <h2 class="title" id="titlepresentation">Jeux vidéo</h2>
+            <div id="labels">
+              <span class="badge badge-default">RPG</span>
+              <span class="badge badge-primary">Horreur</span>
+              <span class="badge badge-success">Plateforme</span>
+              <span class="badge badge-info">Visual Novel</span>
+              <span class="badge badge-warning">Idle Game</span>
+              <span class="badge badge-danger">Action</span>
+              <span class="badge badge-neutral">Puzzle</span>
+          </div>
             <br><br><br>
           <div class="col-md-11 col-xl-12 mr-auto">
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu1">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
@@ -186,26 +178,14 @@
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
+                    <p>Visual novel réalisé sous RenPy avec notamment du langage Python.
                       <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
+                      <br/> Visual novel à l’eau de rose, Ellana débarque dans un nouveau lycée le jour de la rentrée mais elle va faire la rencontre d’un jeune homme magnifique du nom de Evan mais au caractère désespérant. Exporté sous Windows, Linux et Android.</p>
                 </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu2">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
@@ -225,27 +205,15 @@
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Projet personnel réalisé sous Unity. Jeu vidéo de plateforme réalisé à partir d’un cours provenant du site OpenClassroom. 
+                    <br />
+                    <br/> Aucun design et donc aucun materials n’a été appliqué. Le principe est simple : atteindre le drapeau de fin et pour cela trois choix s’offrent à toi. Le premier est un parcours d’agilité, le deuxième un labyrinthe truffé de téléporteurs, et le dernier est parsemé d’ennemis et de projectiles.</p>
+              </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
-              <div class="card-header">
+            <div class="card" id="jeu3">
+                <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
                     <div class="col-sm-9 col-7 mt-5 mt-sm-0" role="tablist">
@@ -263,26 +231,14 @@
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Projet de première année de DUT Informatique. Reproduire ce jeu de société en Java.
+                    <br />
+                    <br/>Ce jeu de morpion est amélioré et consiste à aligner 3 de ses pions tout en devant gérer le fait qu’il existe plusieurs tailles. Un pion grand peut avaler un plus petit et ainsi prendre sa place, mais on peut aussi déplacer un pion déjà posé. Mais attention, les pions sont en nombre limité.</p>
+              </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu4">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
@@ -301,26 +257,14 @@
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Projet de première année de DUT Informatique. Reproduire ce jeu de société en JavaFX à partir de celui en Java.
+                    <br />
+                    <br/>Ce jeu de morpion est amélioré et consiste à aligner 3 de ses pions tout en devant gérer le fait qu’il existe plusieurs tailles. Un pion grand peut avaler un plus petit et ainsi prendre sa place, mais on peut aussi déplacer un pion déjà posé. Mais attention, les pions sont en nombre limité. </p>
+              </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu5">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
@@ -339,31 +283,19 @@
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Projet de première année de DUT Informatique. Reproduire ce jeu de société en C.
+                    <br />
+                    <br/>Ce jeu de morpion est amélioré et consiste à aligner 3 de ses pions tout en devant gérer le fait qu’il existe plusieurs tailles. Un pion grand peut avaler un plus petit et ainsi prendre sa place, mais on peut aussi déplacer un pion déjà posé. Mais attention, les pions sont en nombre limité.</p>
+              </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu6">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
                     <div class="col-sm-9 col-7 mt-5 mt-sm-0" role="tablist">
-                      <img src="assets/img/lora.jpg" alt="Raised image" class="img-fluid rounded shadow-lg">
+                      <img src="assets/img/perso/roadtosuccess.PNG" alt="Raised image" class="img-fluid rounded shadow-lg">
                     </div>
                   </li>
                   <li class="nav-item col-4 align-self-center">
@@ -377,26 +309,14 @@
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Projet web personnel pour s’entrainer en Javascript. Jeu vidéo de type Idle-game.
+                    <br />
+                    <br/>Connaissez-vous l’histoire de l’homme qui est devenu riche en vendant une pomme, puis deux, et ainsi de suite jusqu’à se bâtir un empire. A vous de vivre ça. Commencez à partir d’un pommier, puis achetez des usines et gagnez de l’influence dans d’autre ville !</p>
+              </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu7">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
@@ -409,38 +329,25 @@
                   </li>
                   <li class="nav-item col-4 text-sm-right">
                     <span class="badge badge-danger">Action</span>
-                    <span class="badge badge-neutral">Puzzle</span>
                   </li>
                 </ul>
               </div>
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Jeu retro de tir spatial réalisé sous PICO-8. Réalisé à partir d’un tutoriel de Game Dev Alliance, un youtuber très pédagogue.
+                    <br />
+                    <br/>Le principe est de tirer sur ses ennemis tout en évitant leurs projectiles. On perd quand on se fait toucher et le but est d’avoir le plus de point, ceux-ci étant récolté à la mort d’un monstre.</p>
+              </div>
               </div>
             </div>
             <!-- Nav tabs -->
-            <div class="card">
+            <div class="card" id="jeu8">
               <div class="card-header">
                 <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
                   <li class="nav-item col-4">
                     <div class="col-sm-9 col-7 mt-5 mt-sm-0" role="tablist">
-                      <img src="assets/img/lora.jpg" alt="Raised image" class="img-fluid rounded shadow-lg">
+                      <img src="assets/img/perso/adventure.png" alt="Raised image" class="img-fluid rounded shadow-lg">
                     </div>
                   </li>
                   <li class="nav-item col-4 align-self-center">
@@ -448,29 +355,88 @@
                   </li>
                   <li class="nav-item col-4 text-sm-right">
                     <span class="badge badge-default">RPG</span>
-                    <span class="badge badge-neutral">Puzzle</span>
                   </li>
                 </ul>
               </div>
               <div class="card-body">
                 <!-- Tab panes -->
                 <div class="tab-content tab-space">
-                  <div class="tab-pane active" id="link1">
-                    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits.
-                      <br />
-                      <br/> Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                  </div>
-                  <div class="tab-pane" id="link2">
-                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.
-                      <br />
-                      <br/>Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                  </div>
-                  <div class="tab-pane" id="link3">
-                    <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.
-                      <br />
-                      <br/> Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
-                  </div>
-                </div>
+                  <p>Jeu retro de type RPG réalisé sous PICO-8. Réalisé à partir d’un tutoriel de Game Dev Alliance, un youtuber très pédagogue.
+                    <br />
+                    <br/>Pour l’instant le jeu n’a pas de but particulier si ce n’est de visiter le monde et les donjons. </p>
+              </div>
+              </div>
+            </div>
+
+            <!-- Sites Webs -->
+
+            <!-- Nav tabs -->
+            <div class="card" id="web1">
+              <div class="card-header">
+                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+                  <li class="nav-item col-4">
+                    <div class="col-sm-9 col-7 mt-5 mt-sm-0" role="tablist">
+                      <img src="assets/img/perso/Sitejap.png" alt="Raised image" class="img-fluid rounded shadow-lg">
+                    </div>
+                  </li>
+                  <li class="nav-item col-4 align-self-center">
+                    <h3 role="tablist">Site cours de Japonais</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <!-- Tab panes -->
+                <div class="tab-content tab-space">
+                  <p>Projet personnel qui me tient énormément à cœur, repose sur des cours de Japonais.
+                    <br />
+                    <br/>Je souhaite sur ce site transmettre mes connaissances en japonais de manière amusante et simple. Le plus important et le plus dur est donc l’écriture. L’un de mes projets le plus long et le plus complet.</p>
+              </div>
+              </div>
+            </div>
+            <!-- Nav tabs -->
+            <div class="card" id="web2">
+              <div class="card-header">
+                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+                  <li class="nav-item col-4">
+                    <div class="col-sm-9 col-7 mt-5 mt-sm-0" role="tablist">
+                      <img src="assets/img/perso/eportefolio.PNG" alt="Raised image" class="img-fluid rounded shadow-lg">
+                    </div>
+                  </li>
+                  <li class="nav-item col-4 align-self-center">
+                    <h3 role="tablist">Portefolio</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <!-- Tab panes -->
+                <div class="tab-content tab-space">
+                  <p>C’est le site actuel. Permet de présenter et de rassembler tous mes projets dans un même endroit accessible de n’importe où.
+                    <br />
+                    <br/>Première fois que j’utilise entièrement du Bootstrap pour réaliser un site et j’ai repris le design de Creative Tim pour le réaliser, que je remercie au passage tant le design est magnifique.</p>
+              </div>
+              </div>
+            </div>
+            <!-- Nav tabs -->
+            <div class="card" id="web3">
+              <div class="card-header">
+                <ul class="nav nav-tabs nav-tabs-primary" role="tablist">
+                  <li class="nav-item col-4">
+                    <div class="col-sm-9 col-7 mt-5 mt-sm-0" role="tablist">
+                      <img src="assets/img/perso/odm.PNG" alt="Raised image" class="img-fluid rounded shadow-lg">
+                    </div>
+                  </li>
+                  <li class="nav-item col-4 align-self-center">
+                    <h3 role="tablist">Ordre de Mission</h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <!-- Tab panes -->
+                <div class="tab-content tab-space">
+                  <p>Projet de deuxième année de DUT Informatique. Site web administratif pour l’IUT. Première expérience méthode agile et travail en équipe avec 6 personnes.
+                    <br />
+                    <br/>Créer un ordre de mission n’est pas disponible pour les élèves de l’IUT du campus III, ce qui est dangereux pour les missions tel que le salon de l’étudiant, car on n’aurait pas de preuve pour l’assurance. Ce site vient combler ce problème.</p>
+              </div>
               </div>
             </div>
           </div>
@@ -478,46 +444,53 @@
         <div class="col-3">
           <div class="space-70"></div>
           <div class="space-70"></div>
-          <div class="container">
+          <div class="container" id="checkboxes">
               <p class="category">Genres</p>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" checked>
+                  <input class="form-check-input" id="checkRPG" type="checkbox" checked>
                   <span class="form-check-sign"></span>
                   RPG
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" checked>
+                  <input class="form-check-input" id="checkHorreur" type="checkbox" checked>
                   <span class="form-check-sign"></span>
                   Horreur
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" checked>
+                  <input class="form-check-input" id="checkPlateforme" type="checkbox" checked>
                   <span class="form-check-sign"></span>
                   Plateforme
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" checked>
+                  <input class="form-check-input" id="checkVisualNovel" type="checkbox" checked>
                   <span class="form-check-sign"></span>
                   Visual Novel
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" checked>
+                  <input class="form-check-input" id="checkIdleGame" type="checkbox" checked>
                   <span class="form-check-sign"></span>
                   Idle Game
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox" checked>
+                  <input class="form-check-input" id="checkAction" type="checkbox" checked>
+                  <span class="form-check-sign"></span>
+                  Action
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" id="checkPuzzle" type="checkbox" checked>
                   <span class="form-check-sign"></span>
                   Puzzle
                 </label>
@@ -528,28 +501,28 @@
               <p class="category">Progression</p>
               <div class="form-check form-check-radio">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="1" onclick="radioClick(this);" checked>
                   <span class="form-check-sign"></span>
                   Tous
                 </label>
               </div>
               <div class="form-check form-check-radio">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2" >
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="2" onclick="radioClick(this);">
                   <span class="form-check-sign"></span>
                   Terminé
                 </label>
               </div>
               <div class="form-check form-check-radio">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option3">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="3" onclick="radioClick(this);">
                   <span class="form-check-sign"></span>
                   En cours
                 </label>
               </div>
               <div class="form-check form-check-radio">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option4">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="4" onclick="radioClick(this);">
                   <span class="form-check-sign"></span>
                   Annulé
                 </label>
@@ -1816,7 +1789,7 @@
   <script src="./assets/js/plugins/moment.min.js"></script>
   <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
   <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-  <script src="./assets/demo/demo.js"></script>
+  <script src="./assets/js/perso.js"></script>
   <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
   <script>
