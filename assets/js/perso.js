@@ -138,6 +138,8 @@ document.getElementById('SectionJeu').onclick = function(e) {
 
     document.getElementById('checkboxes').style.display = "block";
     document.getElementById('labels').style.display = "block";
+
+    document.getElementById('titlepresentation').innerHTML = "Jeux vidéo";
 };
 
 
