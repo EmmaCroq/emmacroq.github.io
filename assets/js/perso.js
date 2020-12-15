@@ -138,6 +138,8 @@ document.getElementById('SectionJeu').onclick = function(e) {
 
     document.getElementById('checkboxes').style.display = "block";
     document.getElementById('labels').style.display = "block";
+    document.getElementById('radiobtn1').style.display = "block";
+    document.getElementById('now').style.display = "block";
 
     document.getElementById('titlepresentation').innerHTML = "Jeux vidéo";
 };
@@ -159,6 +161,8 @@ document.getElementById('SectionWeb').onclick = function(e) {
 
     document.getElementById('checkboxes').style.display = "none";
     document.getElementById('labels').style.display = "none";
+    document.getElementById('radiobtn1').style.display = "none";
+    document.getElementById('now').style.display = "none";
 
     document.getElementById('titlepresentation').innerHTML = "Sites Web";
 };
@@ -177,6 +181,8 @@ document.getElementById('SectionLogiciel').onclick = function(e) {
     web3.style.display = "none";
     document.getElementById('checkboxes').style.display = "none";
     document.getElementById('labels').style.display = "none";
+    document.getElementById('radiobtn1').style.display = "none";
+    document.getElementById('now').style.display = "none";
 
     document.getElementById('titlepresentation').innerHTML = "Logiciels";
 };
